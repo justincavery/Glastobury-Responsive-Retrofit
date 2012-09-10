@@ -1,0 +1,142 @@
+/* Hey it's Justin Avery from http://www.javerydesign.com and http://www.responsivedesignweekly.com */
+
+
+#wrapper {
+	width: 90%;
+	max-width: 925px;
+}
+
+#header {
+/*	transition: ease; */
+}
+
+#innerWrapperTop,  #innerWrapperBot {
+	display: none;
+}
+#innerWrapper {
+	padding: 5px 0;
+	border-radius:10px;
+	width: 100%;
+}
+
+#navHeader, #navFooter {
+	position: relative;
+	top: 8px;
+	/* display:none */
+}
+
+#nav, #nav ul {
+	width: 100%;
+}
+
+#nav ul li {
+	width: 11%;
+	float: left;
+}
+
+#nav ul li a {
+	float: none;
+}
+
+#innerWrapper h2:first-of-type {
+	background-size: 100%;
+}
+#colLeft, #colRight {
+	width: 45%;
+	margin-left: 3%;
+}
+
+.newsTxt {
+	width: 70%;
+}
+.newsImg {
+	width: 30%;
+}
+
+.newsImg img {
+	width: 90%;
+	max-width: 90%;
+}
+
+#ticketInfo {
+	width: 100%;
+}
+
+#homeImagesRight {
+	width: 60%;
+	float: left;
+	margin-left: 3%;
+}
+#homeImagesLeft {
+	width: 35%;
+}
+
+img {
+	width: 100%;
+	max-width: 100%;
+}
+
+@media screen and (min-width:810px){
+	#header {
+	height: 150px;
+}
+
+h1 {
+	width: 100%;
+}
+h1 span {
+	margin-left: 20%;	
+	max-width: 543px;
+	background-size: 100%;
+}
+
+
+#colLeft, #colRight {
+	width: 95%;
+	margin-left: 2%;
+}
+
+#charityLogos {
+width: 45%;
+height: 30px;
+float: right;
+margin: 20px 5px 0px 0px;
+}
+
+#searchBox {
+width: 48%;
+height: 30px;
+margin: 20px 05px 0px 0px;
+float: left;}
+
+#searchTextField {
+width: 70%;
+height: 24px;
+}
+
+.submitBtn {
+width: 85px;
+height: 35px;
+background-size: 100%;
+}
+#nav a {
+	padding: 10px 10px 0px 4px;
+}
+
+}
+
+@media screen and (min-width: 767px) {
+	#charityLogos {
+	width: 95%;
+	}
+	#charityLogos li {
+	width: 30%;
+}
+#colRight{
+	width: 95%;	
+}
+
+#colLeft {
+	width: 95%;
+}
+}
